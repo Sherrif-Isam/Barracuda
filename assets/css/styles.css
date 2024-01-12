@@ -12,7 +12,7 @@
 #header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   padding: 15px;
   max-height: 90px;
   background-color: #fff;
@@ -23,12 +23,13 @@
 }
 
 #hamburger {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .logo {
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Bungee Spice", sans-serif;
 }
 
 #toggle-menu {
@@ -123,7 +124,7 @@
 
 .container {
   width: 100%;
-  border-radius: 5%;
+  border-radius: 10px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -148,7 +149,7 @@
 
 .absolute {
   position: absolute;
-  bottom: 120px;
+  bottom: 80px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -159,12 +160,13 @@
 #join {
   width: 100px;
   height: 30px;
-  border-radius: 2%;
+  border-radius: 10px;
   background-color: goldenrod;
   padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid goldenrod;
 }
 
 #join:hover {
@@ -278,7 +280,7 @@
 
 @media screen and (min-width: 400px) {
   .absolute {
-    bottom: 150px;
+    bottom: 120px;
   }
 
   .container {
@@ -301,6 +303,7 @@
 
   .logo {
     width: 50%;
+    font-size: 30px;
   }
 
   #hamburger {
@@ -350,7 +353,7 @@
 
   .absolute {
     position: absolute;
-    bottom: 175px;
+    bottom: 140px;
     display: flex;
     justify-content: center;
     gap: 20px;
